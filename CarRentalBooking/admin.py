@@ -1,4 +1,5 @@
 from django.contrib import admin
-from CarRentalBooking import client
+from CarRentalBooking.models import client
+
 # Register your models here.
 admin.site.register(client)
